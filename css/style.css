@@ -1,0 +1,131 @@
+/* ================================================== */
+/* BASIC SETUP */
+/* ================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* === Heading === */
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ca441f9f;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* === Buttons === */
+.btn-large {
+  border-radius: 50px;
+  background-color: #ca431f;
+}
+
+.btn-large:hover {
+  background-color: #ca441f9f;
+}
+
+.btn-buy-now {
+  margin-bottom: 25px;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+  background-color: rgba(121, 85, 72, 0.65);
+}
+
+/* === NavBar === */
+#navbar a {
+  color: #250c09;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #e7ca9a;
+}
+
+/* ================================================== */
+/* HOME SECTION */
+/* ================================================== */
+header {
+  /* height: 100vh; */
+  height: 100%;
+  padding-bottom: 55px;
+  background-color: #e7ca9aaf;
+}
+
+.big-heading {
+  color: #250c09;
+}
+
+.jumbotron {
+  padding-top: 10%;
+  text-align: left;
+}
+
+.desc {
+  margin: 40px 0px;
+  color: #7e8085;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+}
+
+/* ================================================== */
+/* Bagian Beli */
+/* ================================================== */
+.cover-img-order {
+  height: 300px;
+  background-image: url(../images/bags-coffee.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+#coffee-list .big-heading {
+  margin-bottom: 40px;
+}
+
+.harga {
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* ================================================== */
+/* About Section */
+/* ================================================== */
+.cover-img-about {
+  height: 300px;
+  background-image: url(../images/bags-of-coffee-2.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.flow-text {
+  margin-bottom: 25px;
+}
